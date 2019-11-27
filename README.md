@@ -8,6 +8,7 @@ Spotipy is a thin client library for the Spotify Web API.
 
 Spotipy's full documentation is online at [Spotipy Documentation](http://spotipy.readthedocs.org/).
 
+I have forked this repository in the hopes to bring it into compliance with changes maded to the Spotify Web API.
 
 ## Installation
 If you already have [Python](http://www.python.org/) on your system you can install the library simply by downloading the distribution, unpack it and install in the usual fashion:
@@ -37,6 +38,7 @@ easy_install spotipy
 ## Quick Start
 To get started, simply install spotipy, create a Spotify object and call methods:
 
+The code below does not currently work. Many of the functions have been moved to requests that require token authentication. Currently working on making sure code below works.
 ```python
 import spotipy
 sp = spotipy.Spotify()
@@ -52,6 +54,7 @@ A full set of examples can be found in the [online documentation](http://spotipy
 ## Reporting Issues
 
 If you have suggestions, bugs or other issues specific to this library, file them [here](https://github.com/plamere/spotipy/issues). Or just send me a pull request.
+I am currently working on making the issues submited in the previous repositiory over here.
 
 ## Version
 
